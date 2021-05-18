@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+<title>4_ITIROD</title>
+</head>
+<body>
+    <h2>Четвёртое общее задание по JavaScript</h2>
+    <script src="fourth_script.js"></script>
+    <form id="dateForm">
+      <br>
+      <h2>Заполните все формы:</h2>
+      <hr>
+      <label for="first_num"><b>Месяц (1..12)</b></label>
+      <input type="number" placeholder="Введите номер месяца" name="first_num" id="first_num" required>
+
+      <label for="second_num"><b>Число (1..31)</b></label>
+      <input type="number" placeholder="Введите число месяца" name="second_num" id="second_num" required>
+      <label><b>2015г.</label>
+      <hr>
+      <input type="button" onclick="returnDay()" value="Показать день недели">
+      <label id="output"></label>
+    </form>
+</body>
+</html>
