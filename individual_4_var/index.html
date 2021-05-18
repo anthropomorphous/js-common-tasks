@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+<title>individual_ITIROD</title>
+</head>
+<body>
+  <h1>Индивидуальное задание по JavaScript - 4 вариант</h1>
+  <script src="individual.js"></script>
+  <form id="strForm">
+    <br>
+    <h2>Вставка подстроки в строку по индексу:</h2>
+    <hr>
+    <label for="first_num"><b>Строка</b></label>
+    <input type="text" placeholder="Введите строку" name="first_str" id="first_str" required>
+
+    <label for="second_num"><b>Подстрока</b></label>
+    <input type="text" placeholder="Введите подстроку" name="second_str" id="second_str" required>
+
+    <label for="second_num"><b>Индекс вставки</b></label>
+    <input type="number" placeholder="Введите индекс" name="num" id="num" required>
+    <hr>
+    <input type="button" onclick="validate()" value="Вывести результат">
+    <label id="output"></label>
+  </form>
+</body>
+</html>
