@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+<title>2_ITIROD</title>
+</head>
+<body>
+  <h1>Второе общее задание по JavaScript</h1>
+  <script src="second_script.js"></script>
+  <form id="numForm">
+    <br>
+    <h2>Заполните все формы:</h2>
+    <hr>
+    <table id="myTable">
+      <tr id="one">
+        <td><b>Количество этажей</b></td>
+        <td><input type="number" placeholder="Этажность" name="floors" id="floors" required></b>
+      </tr>
+      <tr id="two">
+        <td><b>Число подъездов</b></td>
+        <td><input type="number" placeholder="Число подъездов" name="entrances" id="entrances" required></td>
+      </tr>
+      <tr id="three">
+        <td><b>Кол-во квартир на этаже</b></td>
+        <td><input type="number" placeholder="Кол-во квартир на этаже" name="flats_per_floor" id="flats_per_floor" required></td>
+      </tr>
+      <tr id="four">
+        <td><b>Номер квартиры</b></td>
+        <td><input type="number" placeholder="Номер квартиры" name="flat_num" id="flat_num" required></td>
+      </tr>
+    </table>
+    <hr>
+    <input type="button" onclick="validate()" value="Вывести подъезд квартиры">
+    <label id="output"></label>
+  </form>
+</body>
+</html>

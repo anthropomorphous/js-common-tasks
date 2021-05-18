@@ -68,9 +68,5 @@ function validate() {
 
     //alert(fibonacci(form.elements[i].value));
 
-    // значение в строке есть, если это почта и она не совпадает, создаётся сообщение о соответствующей ошибке
-    if (form.elements[i].name == 'email' && form.elements[i].value != form.elements.email2.value) {
-      createWarningMessage(form.elements[i], warningMessagesContent[i + 1]);
-    };
   };
 };
